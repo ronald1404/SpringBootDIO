@@ -16,6 +16,9 @@ public class Main {
           sistema.sendRegisterConfirm();
           sistema.welcomeMesagge();
           sistema.sendRegisterConfirm();
+          sistema.welcomeMesagge();
+          sistema.sendRegisterConfirm();
+          sistema.welcomeMesagge();
         };
     }
 }
