@@ -6,10 +6,14 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class MyApp implements CommandLineRunner {
-    @Autowired
-    private Calculadora calc;
     @Override
     public void run(String... args) throws Exception {
-        System.out.println("A soma é: "+ calc.soma(10,5));
+
     }
+//    @Autowired
+//    private Calculadora calc;
+//    @Override
+//    public void run(String... args) throws Exception {
+//        System.out.println("A soma é: "+ calc.soma(10,5));
+//    }
 }
