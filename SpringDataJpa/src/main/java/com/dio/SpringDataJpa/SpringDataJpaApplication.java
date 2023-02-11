@@ -1,13 +1,13 @@
-package com.dio.ORM_and_JPA;
+package com.dio.SpringDataJpa;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class 	OrmAndJpaApplication {
+public class SpringDataJpaApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(OrmAndJpaApplication.class, args);
+		SpringApplication.run(SpringDataJpaApplication.class, args);
 	}
 
 }
